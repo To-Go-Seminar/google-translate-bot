@@ -1,0 +1,1 @@
+discord-vc-log: python3 main.py
