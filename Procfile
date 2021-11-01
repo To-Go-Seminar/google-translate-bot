@@ -1,1 +1,1 @@
-discord-vc-log: python3 main.py
+discord-translate: python3 main.py
