@@ -12,7 +12,7 @@ token = os.getenv('TOKEN')
 @client.event
 async def on_ready():
 	print('--------------')
-	print('ログインしました')
+	print('log in')
 	print(client.user.name)
 	print(client.user.id)
 	print('--------------')
