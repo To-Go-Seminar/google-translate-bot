@@ -1,9 +1,10 @@
 # google-translate-bot
 
 ## important
-"""
+`
 pip install googletrans==4.0.0-rc1
-"""
+`
+<br>
 Note that if you do a normal pip install, you will get a strange error.
 ## how to use
 You can use "!translate text" to translate a sentence.<br>
