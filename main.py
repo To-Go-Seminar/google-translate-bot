@@ -1,10 +1,13 @@
 import discord
 from googletrans import Translator
-
-token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+from dotenv import load_dotenv
+import os
 
 client = discord.Client()
 translator = Translator()
+load_dotenv()
+
+token = os.getenv('TOKEN')
 
 @client.event
 async def on_ready():
