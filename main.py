@@ -45,7 +45,7 @@ async def on_message(message):
             embed.add_field(name='After', value=convert_string.text, inline=False)
             await message.channel.send(embed=embed)
 
-    if message.content.startswith('!trans'):
+    if message.content.startswith('!detect'):
         say = message.content
         s = say[8:]
         detect = translator.detect(s)
