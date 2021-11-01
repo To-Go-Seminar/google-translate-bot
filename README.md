@@ -3,7 +3,6 @@
 ## important
 
 `pip install googletrans==4.0.0-rc1`
-
 <br>
 Note that if you do a normal pip install, you will get a strange error.
 <br>
